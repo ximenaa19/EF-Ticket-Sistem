@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mlahi\\Desktop\\Dev_CSharp\\AirlineTicketManagment\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj": {}
+    "C:\\Users\\USUARIO\\GestionTicketes\\Ticketes_Aereos\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mlahi\\Desktop\\Dev_CSharp\\AirlineTicketManagment\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj": {
+    "C:\\Users\\USUARIO\\GestionTicketes\\Ticketes_Aereos\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mlahi\\Desktop\\Dev_CSharp\\AirlineTicketManagment\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\GestionTicketes\\Ticketes_Aereos\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\mlahi\\Desktop\\Dev_CSharp\\AirlineTicketManagment\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\mlahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mlahi\\Desktop\\Dev_CSharp\\AirlineTicketManagment\\SistemaGestionTiquetesAereos\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\GestionTicketes\\Ticketes_Aereos\\SistemaGestionTiquetesAereos\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\GestionTicketes\\Ticketes_Aereos\\SistemaGestionTiquetesAereos\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mlahi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
