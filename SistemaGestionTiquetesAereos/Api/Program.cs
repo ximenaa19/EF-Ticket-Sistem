@@ -1,6 +1,7 @@
 using AirlineTicketSystem.Api.Extensions;
 using AirlineTicketSystem.Application;
 using AirlineTicketSystem.Infrastructure;
+using AirlineTicketSystem.Infrastructure.Seeding;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,12 @@ builder.Services.AddApiServices();
 
 var app = builder.Build();
 
+// Inicializar datos de prueba en desarrollo
+if (app.Environment.IsDevelopment())
+{
+    await DbInitializer.InitializeAsync(app.Services);
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -31,4 +38,4 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 
-app.Run();
+await app.RunAsync();
